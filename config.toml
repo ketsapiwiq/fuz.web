@@ -1,0 +1,4 @@
+baseURL = 'http://fuz.re'
+languageCode = 'fr-fr'
+title = 'Fuz.re'
+theme = 'terminal'
