@@ -32,6 +32,8 @@ Editer le fichier var.mk
 Editier content/index.md
 
 # Construire le site
+```
 make init
 make config # /!\ Attention ecrase le fichier config.toml
 make build
+```
