@@ -306,8 +306,9 @@ démocratisation et d’empouvoirement.
 * https://www.arts-et-metiers.net/musee/hackarnaval
 
 ## Organisations amies
-* Electrolab (Nanterre)
-* /tmp/lab (Choisy-le-Roy)
+* [DataPaulette](http://datapaulette.org/) : Wearables, eTextiles, flexible materials...
+* [Electrolab](https://www.electrolab.fr/) : (Nanterre)
+* [/tmp/lab](https://www.tmplab.org/) : (Choisy-le-Roy)
 
 ## Ils ont parlé de nous
 * Woot devices : la hackfête des micro cartes au jardin dalice sur makery.info
@@ -322,5 +323,14 @@ contact@fuz.re
 
 ## site web
 http://fuz.re
+
+## Adresse
+
+11-15 Rue de la réunion
+
+75020 Paris
+
+# wiki
+https://wiki.fuz.re/
 
 ![](img/18.jpg)

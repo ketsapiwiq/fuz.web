@@ -1,6 +1,6 @@
 include var.mk
 
-all: init config build run
+all: init config build
 
 init:
 	touch .gitmodules
@@ -39,5 +39,5 @@ help:
 	@echo make run
 	@echo make clean
 	@echo make mrproper
-	@echo make => init config build run
+	@echo make => init config build
 	@echo make help

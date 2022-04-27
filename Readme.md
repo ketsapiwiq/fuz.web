@@ -15,6 +15,7 @@ Editer le fichier var.mk
 * git_template : url du template à installer
 * git_submodulename : destination du template (themes/<templatename>)
 * theme : theme hugo a utiliser
+* base_url : url de base pour les liens locaux, images, js etc...
 
 # Makefile
 
@@ -25,7 +26,7 @@ Editer le fichier var.mk
 * make clean : supprime le site générer dans public
 * make mrproper : make clean + suppression des submodule de templates et ressources/
 * make help : aide
-* make : appelle init config build run
+* make : appelle init config build
 
 # Modification sur le site:
 
@@ -34,6 +35,11 @@ Editier content/index.md
 # Construire le site
 ```
 make init
-make config # /!\ Attention ecrase le fichier config.toml
+make config # /!\ Attention écrase le fichier config.toml
 make build
 ```
+
+# Déployment
+
+Copier le contenu de public/* dans votre serveur web.
+Attention il convient de configurer la bonne baseurl dans var.mk
